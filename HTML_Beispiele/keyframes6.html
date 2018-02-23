@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="keyframes.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title>Keyframes5</title>
+</head>
+<style>
+  .animated {
+    width: 100px;
+    height: 60px;
+    background: rgb(79, 79, 216);
+    transition: width 2s;
+    color:#fff;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    font-family: 'Roboto', sans-serif;
+    padding: 5px;
+    border-radius: 2px;
+    box-sizing: border-box;
+    margin-left: -100px;
+  }
+
+  .area {
+    width: 400px;
+    border: 1px solid #989898;
+    margin-left: 120px;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-radius: 3px;
+    background-color: #f0f0f0;
+  }
+
+@keyframes example {
+  100% {
+    width: 500px;
+  }
+}
+  #div1 {
+    animation-timing-function: linear;
+  }
+
+  #div2 {
+    animation-timing-function: ease;
+  }
+
+  #div3 {
+    animation-timing-function: ease-in;
+  }
+
+  #div4 {
+    animation-timing-function: ease-out;
+  }
+
+  #div5 {
+    animation-timing-function: ease-in-out;
+  }
+</style>
+</head>
+
+<body>
+  <div class="area">
+  <div id="div1" class="animated">linear</div>
+  <br>
+  <div id="div2" class="animated">ease</div>
+  <br>
+  <div id="div3" class="animated">ease-in</div>
+  <br>
+  <div id="div4" class="animated">ease-out</div>
+  <br>
+  <div id="div5" class="animated">ease-in-out</div>
+  <br>
+  </div>
+</body>
+</html>

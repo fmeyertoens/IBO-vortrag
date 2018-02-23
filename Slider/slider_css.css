@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+#ud_slider { width:600px; height:350px; margin:150px auto auto auto; overflow:hidden; position:relative;}
+
+.slider_img { position:absolute; top:0; left:0;}
+
+.klasse_1 { animation: UD_KLASSE_1 infinite 20000ms; -moz-animation: UD_KLASSE_1 infinite 20000ms; -ms-animation: UD_KLASSE_1 infinite 20000ms; -o-animation: UD_KLASSE_1 infinite 20000ms; -webkit-animation: UD_KLASSE_1 infinite 20000ms;}
+.klasse_2 { animation: UD_KLASSE_2 infinite 20000ms; -moz-animation: UD_KLASSE_2 infinite 20000ms; -ms-animation: UD_KLASSE_2 infinite 20000ms; -o-animation: UD_KLASSE_2 infinite 20000ms; -webkit-animation: UD_KLASSE_2 infinite 20000ms;}
+.klasse_3 { animation: UD_KLASSE_3 infinite 20000ms; -moz-animation: UD_KLASSE_3 infinite 20000ms; -ms-animation: UD_KLASSE_3 infinite 20000ms; -o-animation: UD_KLASSE_3 infinite 20000ms; -webkit-animation: UD_KLASSE_3 infinite 20000ms;}
+.klasse_4 { animation: UD_KLASSE_4 infinite 20000ms; -moz-animation: UD_KLASSE_4 infinite 20000ms; -ms-animation: UD_KLASSE_4 infinite 20000ms; -o-animation: UD_KLASSE_4 infinite 20000ms; -webkit-animation: UD_KLASSE_4 infinite 20000ms;}
+
+@-webkit-keyframes UD_KLASSE_1 {
+ 0% { opacity:1;}
+ 20% { opacity:1}
+ 25% { opacity:0;}
+ 95% { opacity:0}
+}
+
+@-webkit-keyframes UD_KLASSE_2 {
+ 0% { opacity:0;}
+ 20% { opacity:0;}
+ 25% { opacity:1;}
+ 45% { opacity:1;}
+ 50% { opacity:0;}
+ 100% { opacity:0}
+}
+
+@-webkit-keyframes UD_KLASSE_3 {
+ 0% { opacity:0;}
+ 45% { opacity:0;}
+ 50% { opacity:1;}
+ 70% { opacity:1;}
+ 75% { opacity:0;}
+ 100% { opacity:0}
+}
+
+@-webkit-keyframes UD_KLASSE_4 {
+ 0% { opacity:0;}
+ 70% { opacity:0;}
+ 75% { opacity:1;}
+ 95% { opacity:1}
+ 100% { opacity:0}
+}

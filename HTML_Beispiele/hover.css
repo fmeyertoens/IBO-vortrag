@@ -1,0 +1,15 @@
+nav {
+  color: #6e6565;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  list-style-type: none;
+  padding: 12px 0;
+}
+
+a {
+  color: #6e6565;
+  font-size: 24px;
+  text-decoration: none;
+}

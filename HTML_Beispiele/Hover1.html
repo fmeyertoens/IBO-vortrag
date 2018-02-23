@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="hover.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title>Document</title>
+    <style>
+      li:hover a,
+      li:visited a {
+        background-color: #a5ecaf;
+      }
+    
+      a {
+        transition: .5s background-color;
+        padding: 5px;
+      }
+
+      .nullsek {
+        transition: none !important;
+      }
+
+      .viersek {
+        transition: 2s background-color !important;
+      }
+    </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>
+        <a href="#" class="a-unstyled">Home</a>
+      </li>
+      <li>
+        <a href="#" class="a-unstyled">Produkt</a>
+      </li>
+      <li>
+        <a href="#" class="a-unstyled">Impressum</a>
+      </li>
+      <li>
+        <a href="#" class="a-unstyled viersek">2 Sekunden</a>
+      </li>
+      <li>
+        <a href="#" class="a-unstyled nullsek">keine transition</a>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html>

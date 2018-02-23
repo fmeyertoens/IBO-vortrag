@@ -1,0 +1,621 @@
+<html>
+<head>
+<title>Portfolio</title>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<style>
+/*--------------------BILD1--------------------*/
+body {font-family: 'Roboto', sans-serif;}
+.ud_portfolio_box {
+                  width:350px;
+                  height:250px;
+                  background:#0000FF;
+                  margin:5px;
+                  float:left;
+                  position:relative;
+                  overflow:hidden;
+                  border:10px solid #fff;
+                  box-shadow: 5px 5px 10px silver;
+}
+
+.ud_portfolio_hover {
+                  width:350px;
+                  height:250px;
+                  position:absolute;
+                  top:-250px;
+                  left:0;
+                  z-index:2;
+                  background:rgba(0,0,255,0.3);
+                  -moz-transition:all 1s ease 0s;        /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;     /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;          /*Opera*/
+                  -ms-transition:all 1s ease 0s;         /*Internet Explorer*/
+                  transition:all 1s ease 0s;             /*W3C Standard*/
+                  
+
+}
+
+/*--------Hovers--------*/
+.ud_portfolio_box:hover .ud_portfolio_hover { top:0;}
+.ud_portfolio_box:hover img {transform: scale(1.2);}
+.ud_portfolio_box:hover h4 { left:0;opacity:1;}
+.ud_portfolio_box:hover h5 { left:0;opacity:1;}
+
+.ud_portfolio_box img {
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  z-index:1;
+                  -moz-transition:all 1s ease 0s;        /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;     /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;          /*Opera*/
+                  -ms-transition:all 1s ease 0s;         /*Internet Explorer*/
+                  transition:all 1s ease 0s;             /*W3C Standard*/
+}
+
+.ud_portfolio_box h4 {
+                  position:absolute;
+                  top:20%;
+                  left:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:25px;
+                  color:white;
+                  opacity:0.2;
+}
+
+.ud_portfolio_box h5 {
+                  position:absolute;
+                  top:35%;
+                  left:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:16px;
+                  color:white;
+                  opacity:0.2;
+}
+
+h4,h5, .ud_portfolio_hover{
+       -moz-transition:all 1s ease 0s;                   /*Firefox*/
+       -webkit-transition:all 1s ease 0s;                /*Safari + Chrome*/
+       -o-transition:all 1s ease 0s;                     /*Opera*/
+       -ms-transition:all 1s ease 0s;                    /*Internet Explorer*/
+       transition:all 1s ease 0s;                        /*W3C Standard*/
+}
+
+
+
+/*--------------------BILD2--------------------*/
+.ud_portfolio_box2 {
+                  width:350px;
+                  height:250px;
+                  background:#0000FF;
+                  margin:5px;
+                  float:left;
+                  position:relative;
+                  overflow:hidden;
+                  -moz-transition:all 1s ease 0s;              /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;           /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;                /*Opera*/
+                  -ms-transition:all 1s ease 0s;               /*Internet Explorer*/
+                  transition:all 1s ease 0s;                   /*W3C Standard*/
+                  border:10px solid #fff;
+                  box-shadow: 5px 5px 10px silver;
+}
+
+/*--------Hovers--------*/
+.ud_portfolio_box2:hover {transform: rotate(10deg);}
+.ud_portfolio_box2:hover img {transform: scale(1.2);}
+.ud_portfolio_box2:hover h4 { left:0;}
+.ud_portfolio_box2:hover h5 { left:0;}
+
+.ud_portfolio_box2 img {
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  z-index:1;
+                  -moz-transition:all 1s ease 0s;              /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;           /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;                /*Opera*/
+                  -ms-transition:all 1s ease 0s;               /*Internet Explorer*/
+                  transition:all 1s ease 0s;                   /*W3C Standard*/
+}
+
+.ud_portfolio_box2 h4 {
+                  position:absolute;
+                  top:20%;
+                  left:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:25px;
+                  color:white;
+}
+
+.ud_portfolio_box2 h5 {
+                  position:absolute;
+                  top:35%;
+                  left:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:16px;
+                  color:white;
+}
+
+h4,h5, .ud_portfolio_hover2{
+       -moz-transition:all 1s ease 0s;                         /*Firefox*/
+       -webkit-transition:all 1s ease 0s;                      /*Safari + Chrome*/
+       -o-transition:all 1s ease 0s;                           /*Opera*/
+       -ms-transition:all 1s ease 0s;                          /*Internet Explorer*/
+       transition:all 1s ease 0s;                              /*W3C Standard*/
+}
+
+
+/*--------------------BILD3--------------------*/
+.ud_portfolio_box3 {
+                  width:350px;
+                  height:250px;
+                  background:#0000FF;
+                  margin:5px;
+                  float:left;
+                  position:relative;
+                  overflow:hidden;
+                  border:10px solid #fff;
+                  box-shadow: 5px 5px 10px silver;
+}
+
+.ud_portfolio_hover3 {
+                  z-index:2;
+                  width:350px;
+                  height:250px;
+                  position:absolute;
+                  top:-250px;
+                  left:0;
+                  border-bottom-left-radius: 40px 80px;
+                  border-bottom-right-radius: 40px 80px;
+                  border-top-left-radius: 40px 80px;
+                  border-top-right-radius: 40px 80px;
+                  background:rgba(0,0,255,0.3);
+                  -moz-transition:all 1s ease 0s;          /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;       /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;            /*Opera*/
+                  -ms-transition:all 1s ease 0s;           /*Internet Explorer*/
+                  transition:all 1s ease 0s;               /*W3C Standard*/
+
+
+}
+/*--------Hovers--------*/
+.ud_portfolio_box3:hover .ud_portfolio_hover3 { top:0;}
+.ud_portfolio_box3:hover h4 { right:0;}
+.ud_portfolio_box3:hover h5 { right:0;}
+
+.ud_portfolio_box3 img {
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  z-index:1;
+}
+
+.ud_portfolio_box3 h4 {
+                  position:absolute;
+                  top:20%;
+                  right:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:25px;
+                  color:white;
+}
+
+.ud_portfolio_box3 h5 {
+                  position:absolute;
+                  top:35%;
+                  right:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:16px;
+                  color:white;
+}
+
+h4,h5, .ud_portfolio_hover3{
+       -moz-transition:all 1s ease 0s;            /*Firefox*/
+       -webkit-transition:all 1s ease 0s;         /*Safari + Chrome*/
+       -o-transition:all 1s ease 0s;              /*Opera*/
+       -ms-transition:all 1s ease 0s;             /*Internet Explorer*/
+       transition:all 1s ease 0s;                 /*W3C Standard*/
+}
+
+
+/*--------------------BILD4--------------------*/
+.ud_portfolio_box4 {
+                  width:350px;
+                  height:250px;
+                  background:#0000FF;
+                  margin:5px;
+                  float:left;
+                  position:relative;
+                  overflow:hidden;
+                  border:10px solid #fff;
+                  box-shadow: 5px 5px 10px silver;
+}
+
+.ud_portfolio_hover4 {
+                  z-index:2;
+                  width:0px;
+                  height:0px;
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  background:rgba(255,0,0,0.3);
+                  -moz-transition:all 1s ease 0s;       /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;    /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;         /*Opera*/
+                  -ms-transition:all 1s ease 0s;        /*Internet Explorer*/
+                  transition:all 1s ease 0s;            /*W3C Standard*/
+                  border-bottom-left-radius: 40px 80px;
+                  border-bottom-right-radius: 40px 80px;
+                  border-top-left-radius: 40px 80px;
+                  border-top-right-radius: 40px 80px;
+                  background:rgba(0,0,255,0.3);
+
+}
+
+/*--------Hovers--------*/
+.ud_portfolio_box4:hover .ud_portfolio_hover4 {width:350px; height:250px;}
+.ud_portfolio_box4:hover img {transform: scale(1.2);}
+.ud_portfolio_box4:hover h4 { left:0;}
+.ud_portfolio_box4:hover h5 { left:0;}
+
+.ud_portfolio_box4 img {
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  z-index:1;
+                  -moz-transition:all 1s ease 0s;           /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;        /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;             /*Opera*/
+                  -ms-transition:all 1s ease 0s;            /*Internet Explorer*/
+                  transition:all 1s ease 0s;                /*W3C Standard*/
+}
+
+.ud_portfolio_box4 h4 {
+                  position:absolute;
+                  top:20%;
+                  left:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:25px;
+                  color:white;
+}
+
+.ud_portfolio_box4 h5 {
+                  position:absolute;
+                  top:35%;
+                  left:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:16px;
+                  color:white;
+}
+
+h4,h5, .ud_portfolio_hover4{
+       -moz-transition:all 1s ease 0s;            /*Firefox*/
+       -webkit-transition:all 1s ease 0s;         /*Safari + Chrome*/
+       -o-transition:all 1s ease 0s;              /*Opera*/
+       -ms-transition:all 1s ease 0s;             /*Internet Explorer*/
+       transition:all 1s ease 0s;                 /*W3C Standard*/
+}
+
+
+/*--------------------BILD5--------------------*/
+.ud_portfolio_box5 {
+                  width:350px;
+                  height:250px;
+                  background:#0000FF;
+                  margin:5px;
+                  float:left;
+                  position:relative;
+                  overflow:hidden;
+                  -moz-transition:all 1s ease 0s;       /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;    /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;         /*Opera*/
+                  -ms-transition:all 1s ease 0s;        /*Internet Explorer*/
+                  transition:all 1s ease 0s;            /*W3C Standard*
+                  border:10px solid #fff;
+                  box-shadow: 5px 5px 10px silver;
+}
+
+.ud_portfolio_hover5 {
+                  z-index:2;
+                  width:0px;
+                  height:0px;
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  background:rgba(255,0,0,0.3);
+                  -moz-transition:all 1s ease 0s;       /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;    /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;         /*Opera*/
+                  -ms-transition:all 1s ease 0s;        /*Internet Explorer*/
+                  transition:all 1s ease 0s;            /*W3C Standard*/
+                  border-bottom-left-radius: 40px 80px;
+                  border-bottom-right-radius: 40px 80px;
+                  border-top-left-radius: 40px 80px;
+                  border-top-right-radius: 40px 80px;
+                  background:rgba(0,0,255,0.3);
+                  border:10px solid #fff;
+                  box-shadow: 5px 5px 10px silver;
+
+}
+
+/*--------Hovers--------*/
+.ud_portfolio_box5:hover .ud_portfolio_hover5 {width:350px; height:250px;}
+.ud_portfolio_box5:hover {transform: rotate(360deg);}
+.ud_portfolio_box5:hover h4 { left:0;}
+.ud_portfolio_box5:hover h5 { left:0;}
+
+.ud_portfolio_box5 img {
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  z-index:1;
+                  -moz-transition:all 1s ease 0s;               /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;            /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;                 /*Opera*/
+                  -ms-transition:all 1s ease 0s;                /*Internet Explorer*/
+                  transition:all 1s ease 0s;                    /*W3C Standard*/
+}
+
+.ud_portfolio_box5 h4 {
+                  position:absolute;
+                  top:20%;
+                  left:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:25px;
+                  color:white;
+}
+
+.ud_portfolio_box5 h5 {
+                  position:absolute;
+                  top:35%;
+                  left:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:16px;
+                  color:white;
+}
+
+h4,h5, .ud_portfolio_hover5{
+       -moz-transition:all 1s ease 0s;            /*Firefox*/
+       -webkit-transition:all 1s ease 0s;         /*Safari + Chrome*/
+       -o-transition:all 1s ease 0s;              /*Opera*/
+       -ms-transition:all 1s ease 0s;             /*Internet Explorer*/
+       transition:all 1s ease 0s;                 /*W3C Standard*/
+}
+
+
+
+/*--------------------BILD6--------------------*/
+.ud_portfolio_box6 {
+                  width:350px;
+                  height:250px;
+                  background:white;
+                  margin:5px;
+                  float:left;
+                  position:relative;
+                  overflow:hidden;
+                  -moz-transition:all 1s ease 0s;            /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;         /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;              /*Opera*/
+                  -ms-transition:all 1s ease 0s;             /*Internet Explorer*/
+                  transition:all 1s ease 0s;                 /*W3C Standard*
+                  border:10px solid #fff;
+                  box-shadow: 5px 5px 10px silver;
+}
+
+.ud_portfolio_hover6 {
+                  z-index:2;
+                  width:0px;
+                  height:0px;
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  background:rgba(255,0,0,0.3);
+                  -moz-transition:all 1s ease 0s;            /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;         /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;              /*Opera*/
+                  -ms-transition:all 1s ease 0s;             /*Internet Explorer*/
+                  transition:all 1s ease 0s;                 /*W3C Standard*/
+                  background:rgba(0,0,255,0.3);
+                  border:10px solid #fff;
+                  box-shadow: 5px 5px 10px silver;
+
+}
+
+.ud_portfolio_box6:hover .ud_portfolio_hover5 {width:350px; height:250px;}
+.ud_portfolio_box6:hover img {transform: rotate(360deg);}
+.ud_portfolio_box6:hover h4 { left:0;}
+.ud_portfolio_box6:hover h5 { left:0;}
+
+.ud_portfolio_box6 img {
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  z-index:1;
+                  -moz-transition:all 1s ease 0s;        /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;     /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;          /*Opera*/
+                  -ms-transition:all 1s ease 0s;         /*Internet Explorer*/
+                  transition:all 1s ease 0s;             /*W3C Standard*/
+}
+
+.ud_portfolio_box6 h4 {
+                  position:absolute;
+                  top:20%;
+                  left:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:25px;
+                  color:white;
+}
+
+.ud_portfolio_box6 h5 {
+                  position:absolute;
+                  top:35%;
+                  left:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:16px;
+                  color:white;
+}
+
+h4,h5, .ud_portfolio_hover6{
+       -moz-transition:all 1s ease 0s;                   /*Firefox*/
+       -webkit-transition:all 1s ease 0s;                /*Safari + Chrome*/
+       -o-transition:all 1s ease 0s;                     /*Opera*/
+       -ms-transition:all 1s ease 0s;                    /*Internet Explorer*/
+       transition:all 1s ease 0s;                        /*W3C Standard*/
+}
+
+/*--------------------BILD7--------------------*/
+.ud_portfolio_box7 {
+                  width:350px;
+                  height:250px;
+                  background:white;
+                  margin:5px;
+                  float:left;
+                  position:relative;
+                  overflow:hidden;
+                  -moz-transition:all 1s ease 0s;            /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;         /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;              /*Opera*/
+                  -ms-transition:all 1s ease 0s;             /*Internet Explorer*/
+                  transition:all 1s ease 0s;                 /*W3C Standard*
+                  border:10px solid #fff;
+                  box-shadow: 5px 5px 10px silver;
+}
+
+.ud_portfolio_hover7 {
+                  z-index:2;
+                  width:1350px;
+                  height:1250px;
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  background:rgba(255,0,0,0.3);
+                  -moz-transition:all 1s ease 0s;            /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;         /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;              /*Opera*/
+                  -ms-transition:all 1s ease 0s;             /*Internet Explorer*/
+                  transition:all 1s ease 0s;                 /*W3C Standard*/
+                  background:rgba(0,0,255,0.3);
+                  border:10px solid #fff;
+                  box-shadow: 5px 5px 10px silver;
+
+}
+
+.ud_portfolio_box7:hover .ud_portfolio_hover7 {}
+.ud_portfolio_box7:hover {
+                         transform:scale(1.3);
+}
+.ud_portfolio_box7:hover h4 { left:0;}
+.ud_portfolio_box7:hover h5 { left:0;}
+
+.ud_portfolio_box7 img {
+                  position:absolute;
+                  top:0;
+                  left:0;
+                  z-index:1;
+                  -moz-transition:all 1s ease 0s;        /*Firefox*/
+                  -webkit-transition:all 1s ease 0s;     /*Safari + Chrome*/
+                  -o-transition:all 1s ease 0s;          /*Opera*/
+                  -ms-transition:all 1s ease 0s;         /*Internet Explorer*/
+                  transition:all 1s ease 0s;             /*W3C Standard*/
+}
+
+.ud_portfolio_box7 h4 {
+                  position:absolute;
+                  top:20%;
+                  left:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:25px;
+                  color:white;
+}
+
+.ud_portfolio_box7 h5 {
+                  position:absolute;
+                  top:35%;
+                  left:-100%;
+                  z-index:3;
+                  text-align:center;
+                  width:100%;
+                  font-size:16px;
+                  color:white;
+}
+
+h4,h5, .ud_portfolio_hover7{
+       -moz-transition:all 1s ease 0s;                   /*Firefox*/
+       -webkit-transition:all 1s ease 0s;                /*Safari + Chrome*/
+       -o-transition:all 1s ease 0s;                     /*Opera*/
+       -ms-transition:all 1s ease 0s;                    /*Internet Explorer*/
+       transition:all 1s ease 0s;                        /*W3C Standard*/
+}
+</style>
+</head>
+<body>
+<div class="ud_portfolio_box">
+        <div class="ud_portfolio_hover"></div>
+    <h4>Image</h4>
+    <h5>transform: scale(1.2);</h5>
+<img src="Lamborghini1_1680x1050gro&szlig;.jpg" width="350" height="250" border="0" alt="">
+</div>
+<div class="ud_portfolio_box2">
+        <div class="ud_portfolio_hover2"></div>
+    <h4>Div</h4>
+    <h5>transform: rotate(10deg);</h5>
+<img src="Lamborghini1_1680x1050gro&szlig;.jpg" width="350" height="250" border="0" alt="">
+</div>
+<div class="ud_portfolio_box3">
+        <div class="ud_portfolio_hover3"></div>
+    <h4>Div Overlay</h4>
+    <h5>border-radius: 40px;</h5>
+<img src="Lamborghini1_1680x1050gro&szlig;.jpg" width="350" height="250" border="0" alt="">
+</div>
+<div class="ud_portfolio_box4">
+        <div class="ud_portfolio_hover4"></div>
+    <h4>Projektname</h4>
+    <h5>Test 1 & Test 2</h5>
+<img src="Lamborghini1_1680x1050gro&szlig;.jpg" width="350" height="250" border="0" alt="">
+</div>
+<div class="ud_portfolio_box5">
+        <div class="ud_portfolio_hover5"></div>
+    <h4>Div</h4>
+    <h5>transform: rotate(360deg);</h5>
+<img src="Lamborghini1_1680x1050gro&szlig;.jpg" width="350" height="250" border="0" alt="">
+</div>
+<div class="ud_portfolio_box6">
+        <div class="ud_portfolio_hover6"></div>
+    <h4>Projektname</h4>
+    <h5>Test 1 & Test 2</h5>
+<img src="Lamborghini1_1680x1050gro&szlig;.jpg" width="350" height="250" border="0" alt="">
+</div>
+<div class="ud_portfolio_box7">
+        <div class="ud_portfolio_hover7"></div>
+    <h4>Projektname</h4>
+    <h5>Test 1 & Test 2</h5>
+<img src="Lamborghini1_1680x1050gro&szlig;.jpg" width="350" height="250" border="0" alt="">
+</div>
+</body>
+</html>
